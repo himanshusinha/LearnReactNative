@@ -1,14 +1,13 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import ClassComponent from './src/components/ClassComponent';
-import { StyleSheet } from 'react-native';
-
+import { StyleSheet, Text, View } from 'react-native';
+import './global.css'
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
-      <ClassComponent />
-    </SafeAreaView>
-  );
+       <View className='flex-1 justify-center  bg-red-500 items-center'>
+        <Text className='text-6xl'>App</Text>
+      </View>
+   );
 };
 
 const styles = StyleSheet.create({
