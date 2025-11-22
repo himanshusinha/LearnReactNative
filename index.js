@@ -1,9 +1,11 @@
 /**
  * @format
  */
-
+if (__DEV__) {
+  require("./ReactotronConfig");
+}
 import { AppRegistry } from 'react-native';
  import { name as appName } from './app.json';
-import FlexBoxDemo from './src/styles/FlexBoxDemo';
+ import App from './App';
  
-AppRegistry.registerComponent(appName, () => FlexBoxDemo);
+AppRegistry.registerComponent(appName, () => App);
