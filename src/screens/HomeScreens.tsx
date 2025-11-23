@@ -3,6 +3,7 @@ import React from 'react'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { RootStackParamList } from '../navigations/RootStackParamList';
 import ScreenName from '../constant/ScreenName';
+import BottomTabStack from '../navigations/BottomTabStack';
  
 type Props = NativeStackScreenProps<RootStackParamList>;
 const HomeScreens = ({route,navigation}:Props) => {
@@ -17,6 +18,7 @@ const HomeScreens = ({route,navigation}:Props) => {
     }}>
       <Text>Press Me</Text>
     </TouchableOpacity>
+
     </View>
   )
 }

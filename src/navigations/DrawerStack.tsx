@@ -12,11 +12,11 @@ const DrawerStack = () => {
   return (
     <Drawer.Navigator   drawerContent={(props) => <CustomDrawerContent {...props} />} 
       screenOptions={{
-        drawerActiveBackgroundColor: "#f2f2f2", // Background color for active drawer item
+        drawerActiveBackgroundColor: "#f2f2f2", 
         drawerActiveTintColor:"black",
         drawerInactiveTintColor:'purple',
         drawerStyle: {
-          backgroundColor: "orange", // Drawer background color
+          backgroundColor: "orange", 
           
         },
        
@@ -33,7 +33,7 @@ const DrawerStack = () => {
                 style={{
                   width: 30,
                   height: 30,
-                  tintColor: color, // Change icon color based on focus
+                  tintColor: color, 
                 }}
               />
             )
@@ -54,13 +54,13 @@ const DrawerStack = () => {
                 style={{
                   width: 30,
                   height: 30,
-                  tintColor: color, // Change icon color based on focus
+                  tintColor: color, 
                 }}
               />
             )
           },
           drawerLabel: ({ color }) => (
-            <Text style={{ color:color}}>Help</Text> // Label color changes with focus
+            <Text style={{ color:color}}>Help</Text> 
           ),
         }}
       />

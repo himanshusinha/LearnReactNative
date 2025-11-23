@@ -13,6 +13,6 @@ type SettingsScreenParams = {
 };
  
 export type RootStackParamList = {
-  [ScreenName.Home]: HomeScreenParams;  
+  [ScreenName.HomeScreen]: HomeScreenParams;  
   [ScreenName.Settings]: SettingsScreenParams;  
 };

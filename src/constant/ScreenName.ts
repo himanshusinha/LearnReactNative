@@ -1,9 +1,13 @@
 export enum ScreenName {
-  Home = "Home",
+  HomeScreen = "HomeScreen",
   Chat ="Chat",
   Settings = "Settings",
   Profile="Profile",
-  Help="Help"
+  Help="Help",
+  Home="Home",
+  Search="Search",
+  SettingsScreen="SettingsScreen",
+  AddPost="AddPost"
 }
 
 export default ScreenName;

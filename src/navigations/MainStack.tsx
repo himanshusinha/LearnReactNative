@@ -12,7 +12,7 @@ const MainStack = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name={ScreenName.Home} 
+        name={ScreenName.HomeScreen} 
         component={HomeScreens}
         initialParams={{
            title:"Himanshu",

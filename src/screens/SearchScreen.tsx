@@ -4,12 +4,12 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { BottomStackParamsLists } from '../navigations/BottomStackParamsLists'
 
 type Props = NativeStackScreenProps<BottomStackParamsLists>;
-const SettingsScreen = ({route,navigation}:Props) => {
+const SearchScreen = ({route,navigation}:Props) => {
   return (
     <View>
-      <Text>SettingsScreen</Text>
+      <Text>SearchScreen</Text>
     </View>
   )
 }
 
-export default SettingsScreen
+export default SearchScreen
